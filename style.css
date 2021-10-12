@@ -1,0 +1,21 @@
+/*This is a comment*/
+body{
+    color: red;
+    background-color: aqua;
+}
+
+a{
+    color: rgb(77, 56, 29);
+}
+/*Selectores de clase*/
+.menu-item{
+    color: blue;
+}
+.button{
+    color: rgb(255, 255, 255);
+    text-decoration-color: aliceblue;
+    background-color: black;
+}
+#active{
+    color: yellow;
+}

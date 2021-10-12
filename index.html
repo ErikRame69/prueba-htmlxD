@@ -2,26 +2,39 @@
 <html>
     <head> 
         <meta charset="UTF-8">
-        <title>Generation 06</title>
+        <title>Generation 6</title>
         <link rel="stylesheet" href="./style.css">
+        <style>
+            h2{
+                color: brown;
+            }
+        </style>
     </head>
     <body>
         <nav>
 
-            <ul>
+            <ul> 
                 <h1>Mi Curriculum</h1>
-                <a href="acercademi.html">
-                    <li>Acerca de mí</li>
-                </a>
-                <a href="educacion.html">
-                <li>Educación</li>
-                </a>
-                <a href="experiencia.html">
-                    <li>Experiecia</li>
-                </a>
-                <a href="contactos.html">
-                    <li>Contactos</li>
-                </a>
+                <li class="menu-item" id="active">
+                    <a href="acercademi.html">                    
+                    Acerca de mí
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="educacion.html">
+                        Educación
+                    </a>
+                </li class="menu-item">        
+                <li>
+                    <a href="experiencia.html">
+                        Experiecia
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="contactos.html">
+                        Contactos
+                    </a>
+                </li>
             </ul>
         </nav>
 
@@ -54,7 +67,7 @@
         <section><!--Proyecto 1 se divide en section-->
             <div><!---->
                 <h3>He trabajado en</h3>
-                <button>                    
+                <button class="button">                    
                     <strong>
                         <a href="https://facebook.com"><p>Facebook</p></a>                    
                     </strong>        
