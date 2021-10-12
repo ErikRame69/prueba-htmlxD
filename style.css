@@ -19,3 +19,12 @@ a{
 #active{
     color: yellow;
 }
+/*p > i
+{
+    Es similar a una condicion y es practicamente que la p es el padre y solo si dentro de 
+    la "p" hay una "i" esas son la letras que se les dara un color
+}
+*/
+p > i {
+    color: yellowgreen;
+}
